@@ -1,0 +1,9 @@
+{
+    "discord_bot": {
+        "prefix": "$",
+        "token": "",
+        "verify_role_id": "1108787422604578816"
+    },
+    "loaded_accounts": {
+    }
+}
