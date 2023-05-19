@@ -17,7 +17,7 @@ class verifyBot:
         self.prefix = self.config.get('discord_bot', {}).get('prefix')
         self.token = self.config.get('discord_bot', {}).get("token")
         self.role_id = self.config.get('discord_bot', {}).get('verify_role_id')
-        assert self.prefix or self.token or self.role_id, "Missing arguments"
+        assert self.prefix and self.token and self.role_id, "Missing arguments"
         self.running = []
 
     
